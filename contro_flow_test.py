@@ -1,7 +1,7 @@
 import unittest
 from bike_rental_cal import calculate_rental_fee
 
-class TestDataFlowCalculateRentalFee(unittest.TestCase):
+class TestControlFlowCalculateRentalFee(unittest.TestCase):
     
     # Path 1
     def test_invalid_start_time(self):
